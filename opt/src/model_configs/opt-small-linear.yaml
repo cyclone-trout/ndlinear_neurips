@@ -1,0 +1,10 @@
+max_position_embeddings: 512
+ffn_dim: 3072
+ffn_type: "baseline"
+# ffn_ndlinear_in_dim: [768, 1]
+# ffn_ndlinear_ndlinear_dim: [1536, 8]
+hidden_size: 768
+num_hidden_layers: 12
+num_attention_heads: 12
+init_std: 0.006
+dropout: 0.1
